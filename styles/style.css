@@ -160,7 +160,9 @@ header{
 }
 
 footer{
-    padding-top: 130px;
+    margin-top: 130px;
+    padding: 130px 0;
+    background-color: #151414;
 }
 footer .footer-container{
     width: 71%;
@@ -172,6 +174,61 @@ footer .footer-container{
 footer .footer-container .footer-des{
     max-width: 485px;
 }
+footer .footer-container .footer-des h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+footer .footer-container .footer-des p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+footer .footer-container .footer-des .extra-p{
+    margin-bottom: 16px;
+}
+footer .footer-container .footer-des .icons img{
+    width: 47px;
+    margin-right: 17px;
+    margin-top: 25px;
+    cursor: pointer;
+}
 footer .footer-container form{
     max-width: 325px;
+}
+footer .footer-container form h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+footer .footer-container form input[type="email"]{
+    padding: 21px 158px 22px 21px;
+    background-color: #151414;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+footer .footer-container form input[type="email"]::placeholder{
+    color: #FFFFFF;
+}
+footer .footer-container form button{
+    background-color: #FFFFFF;
+    padding: 20px 36px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
